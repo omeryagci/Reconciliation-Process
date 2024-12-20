@@ -1,4 +1,25 @@
-**[TR]**
+# RECONCILIATION PROCESS
+
+## İçindekiler - Contents
+
+1. [TR](#tr)
+   - [Genel Açıklama](#genel-açıklama)
+   - [Adım Adım Süreç](#adım-adım-süreç)
+   - [Robot Yolu](#robot-yolu)
+   - [Total Excel Örneği](#total-excel-örneği)
+   - [Aylık Excel Örneği](#aylık-excel-örneği)
+   - [Düzenlenmiş Total Excel Örneği](#düzenlenmiş-total-excel-örneği)
+2. [ENG](#eng)
+   - [General Description](#general-description)
+   - [Step-by-Step Process](#step-by-step-process)
+   - [Robot Path](#robot-path)
+   - [Total Excel Example](#total-excel-example)
+   - [Monthly Excel Example](#monthly-excel-example)
+   - [Modified Total Excel Example](#modified-total-excel-example)
+
+## [TR]
+
+### Genel Açıklama
 
 Merhabalar,
 
@@ -15,6 +36,8 @@ bulunan "Total" sütunundaki veriden, aylık excelinden alınan toplam sayı ç�
 Bu işlemler, "export_total.xlsx" exceli içerisindeki tüm sütunlar için tekrarlanıyor. Tüm sütunlar için bu işlemler gerçekleştirildikten sonra süreç sonlanıyor.
 
 Teşekkürler.
+
+### Adım Adım Süreç
 
 1. ACME System sitesi açılır.
 2. "Internal Invoices" butonuna tıklanır.
@@ -37,23 +60,25 @@ Teşekkürler.
 19. Aradaki fark, Total excelinde oluşturulmuş olan "Reconcile" sütununa yazdırılır.
 20. Bu işlemler Total excelindeki tüm sütunlar için tekrarlanır.
 
---Robot Yolu--
+### Robot Yolu
 
 ![image](https://github.com/user-attachments/assets/810972b0-9c47-4f84-8c95-c6974d1e3248)
 
---Total Excel Örneği--
+### Total Excel Örneği
 
 ![image](https://github.com/user-attachments/assets/02bd3a64-3ca5-4dc1-81c9-d4a720822423)
 
---Aylık Excel Örneği--
+### Aylık Excel Örneği
 
 ![image](https://github.com/user-attachments/assets/e0937f3b-363b-4062-9539-d6316d168c00)
 
---Düzenlenmiş Total Excel Örneği--
+### Düzenlenmiş Total Excel Örneği
 
 ![image](https://github.com/user-attachments/assets/87e7458e-87a6-4ae0-ad06-ee1d8088ab06)
 
-**[ENG]**
+## [ENG]
+
+### General Description
 
 Hello,
 
@@ -66,6 +91,8 @@ Another For Each Excel Row loop is created. This allows summing up the data in t
 These operations are repeated for all rows in the "export_total.xlsx" file. Once the operations are completed for all rows, the process ends.
 
 Thanks.
+
+### Step-by-Step Process
 
 1. The ACME System website is opened.
 2. The "Internal Invoices" button is clicked.
@@ -88,18 +115,18 @@ Thanks.
 19. The difference is written into the "Reconcile" column in the Total Excel file.
 20. These operations are repeated for all columns in the Total Excel file.
 
---Robot Path--
+### Robot Path
 
 ![image](https://github.com/user-attachments/assets/83cdb181-620f-46cf-9fd1-160c709ddefb)
 
---Total Excel Example--
+### Total Excel Example
 
 ![image](https://github.com/user-attachments/assets/7718ff4a-e997-4f0a-ba1c-7c64d19e5ed3)
 
---Monthly Excel Example--
+### Monthly Excel Example
 
 ![image](https://github.com/user-attachments/assets/e0937f3b-363b-4062-9539-d6316d168c00)
 
---Modified Total Excel Example--
+### Modified Total Excel Example
 
 ![image](https://github.com/user-attachments/assets/87e7458e-87a6-4ae0-ad06-ee1d8088ab06)
